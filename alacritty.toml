@@ -15,7 +15,7 @@ dynamic_title = false
 title = "insmnxa"
 
 [font]
-family = { family = "FiraCode", style = "Regular" }
+family = { family = "SF Mono Nerd Font", style = "Regular" }
 size = 11.0
 
 [mouse]
