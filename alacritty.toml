@@ -8,15 +8,19 @@ import = [
 program = "/bin/fish"
 
 [window]
-opacity = 0.85
+opacity = 0.9
 decorations = "Full"
 padding = { x = 8, y = 4 }
+dynamic_padding = true
 dynamic_title = false
 title = "insmnxa"
 
 [font]
-family = { family = "SF Mono Nerd Font", style = "Regular" }
+family = { family = "MesloLGS Nerd Font", style = "Regular" }
 size = 11.0
 
 [mouse]
 hide_when_typing = true
+
+[cursor]
+style = { shape = "Underline", blinking = "On" }
