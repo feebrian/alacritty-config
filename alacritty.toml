@@ -16,7 +16,7 @@ dynamic_title = false
 title = "insmnxa"
 
 [font]
-family = { family = "MesloLGS Nerd Font", style = "Regular" }
+normal = { family = "MesloLGS NF", style = "Regular" }
 size = 11.0
 
 [mouse]
