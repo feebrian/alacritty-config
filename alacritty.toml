@@ -8,15 +8,18 @@ import = [
 program = "/bin/fish"
 
 [window]
-opacity = 0.9
+opacity = 0.5
 decorations = "Full"
 padding = { x = 8, y = 4 }
 dynamic_padding = true
 dynamic_title = false
 title = "insmnxa"
 
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
+
 [font]
-normal = { family = "MesloLGS NF", style = "Regular" }
+normal = { family = "JetBrainsMono Nerd Font Bold", style = "Regular" }
 size = 11.0
 
 [mouse]
