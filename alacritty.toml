@@ -6,20 +6,22 @@ import = [
 
 [shell]
 program = "/bin/fish"
+args = ["-c", "tmux"]
 
 [window]
-opacity = 0.5
+opacity = 0.95
 decorations = "Full"
 padding = { x = 8, y = 4 }
 dynamic_padding = true
 dynamic_title = false
 title = "insmnxa"
+startup_mode = "fullscreen"
 
 [env]
 WINIT_X11_SCALE_FACTOR = "1.0"
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font Bold", style = "Regular" }
+normal = { family = "JetBrainsMono Nerd Font", style = "Bold" }
 size = 11.0
 
 [mouse]
